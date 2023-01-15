@@ -1,0 +1,370 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+.hi {
+  color: #fff;
+}
+button {
+  color: #fff;
+}
+.container-1 {
+  position: relative;
+  text-align: center;
+  color: White;
+}
+.container-2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: White;
+  border-bottom: 2px solid rgb(78, 75, 75);
+}
+
+.unlimited {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700px;
+  font-size: 60px;
+  background-color: none;
+  background-color: transparent;
+}
+.watch {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  font-size: 15px;
+}
+.ready {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  font-size: 15px;
+}
+.watch-profile {
+  position: absolute;
+  top: 65%;
+  left: 150px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  font-size: 20px;
+}
+.ready-profile {
+  position: absolute;
+  top: 85%;
+  left: 150px;
+  width: 300px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 200;
+}
+.unlimited-profile {
+  position: absolute;
+  top: 55%;
+  left: 150px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  font-size: 30px;
+}
+.net {
+  position: absolute;
+  top: 8px;
+  left: 250px;
+  margin-right: 20px;
+}
+form {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hii {
+  font-size: 16px;
+  color: #fff;
+}
+.img {
+  width: 100px;
+  border-radius: 20px white;
+}
+.cover-image {
+  width: 1700px;
+  height: 400px;
+}
+.netflix {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.sign-in {
+  position: absolute;
+  top: 8px;
+  right: 1px;
+}
+.english {
+  position: absolute;
+  top: 8px;
+  right: 70px;
+}
+.enjoy {
+  color: #fff;
+  font-size: 25px;
+
+  padding-bottom: 30px;
+}
+.enjoy-sub {
+  color: #fff;
+  font-size: 15px;
+}
+.enjoy-image {
+  width: 250px;
+  height: 150px;
+}
+.enjo {
+  color: #fff;
+  font-size: 25px;
+
+  padding-bottom: 30px;
+}
+.enjo-sub {
+  color: #fff;
+  font-size: 15px;
+
+  width: 320px;
+}
+.enjo-image {
+  width: 250px;
+  height: 150px;
+}
+.sub {
+  width: 400px;
+  font-size: 15px;
+}
+.names {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+input[type="text"],
+select {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  background-color: transparent;
+}
+
+/* Style the submit button with a specific background color etc */
+a[type="submit"] {
+  background-color: #fc0101;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #b35451;
+}
+p {
+  color: #fff;
+}
+.remember {
+  position: absolute;
+  left: 0px;
+}
+.email {
+}
+.kim {
+  margin: 200px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.show-modal {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  margin: 2rem 2rem;
+  border: none;
+  background-color: rgb(78, 75, 75);
+  color: #fff;
+  cursor: pointer;
+}
+.mod .text {
+  display: none;
+}
+.mod.show .text {
+  display: block;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 10px;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.icon {
+  background-color: rgb(78, 75, 75);
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.frequently {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+p {
+  font-size: 10 px;
+}
+
+/* -------------------------- */
+/* CLASSES TO MAKE MODAL WORK */
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: rgb(78, 75, 75);
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+.text {
+  color: #fff;
+}
+.foot {
+  display: flex;
+  justify-content: space-around;
+}
+.section-1 {
+  background-color: transparent;
+}
+
+.card {
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.button {
+  background-color: #fc0101;
+  width: 900px;
+}
+.card h2 {
+  position: absolute;
+  bottom: 160%;
+  left: 50%;
+}
+
+.card form {
+  position: absolute;
+  bottom: 35%;
+  left: 50%;
+}
+.section-2 {
+  display: flex;
+  justify-content: space-between;
+}
+/* Add a background color and some padding around the form */
+/* @media (max-width: 500px) {
+  h1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700px;
+    font-size: 60px;
+    background-color: none;
+    background-color: transparent;
+  }
+  .watch {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    font-size: 15px;
+  }
+  h6 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    font-size: 15px;
+  }
+
+  form {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .cover-image {
+    width: 1700px;
+    height: 400px;
+  }
+  .netflix {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  .sign-in {
+    position: absolute;
+    top: 8px;
+    right: 1px;
+  }
+  .english {
+    position: absolute;
+    top: 8px;
+    right: 70px;
+  }
+} */
